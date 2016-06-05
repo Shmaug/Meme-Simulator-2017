@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 32ae4c23d5dfdfd49ab69418a0fd6ce2
+timeCreated: 1465096639
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: soldierSpriteSheet_0
+    21300002: soldierSpriteSheet_1
+    21300004: soldierSpriteSheet_2
+    21300006: soldierSpriteSheet_3
+    21300008: soldierSpriteSheet_4
+    21300010: soldierSpriteSheet_5
+    21300012: soldierSpriteSheet_6
+    21300014: soldierSpriteSheet_7
+    21300016: soldierSpriteSheet_8
+    21300018: soldierSpriteSheet_9
+    21300020: soldierSpriteSheet_10
+    21300022: soldierSpriteSheet_11
+    21300024: soldierSpriteSheet_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: soldierSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 16}
+        - {x: -10.5, y: 16}
+        - {x: -16.5, y: 4}
+        - {x: -16.5, y: -1}
+        - {x: -14.5, y: -15}
+        - {x: 5.5, y: -15}
+        - {x: 10.5, y: -10}
+        - {x: 10.5, y: 0}
+        - {x: 3.5, y: 14}
+    - name: soldierSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 16}
+        - {x: -16.5, y: 8}
+        - {x: -16.5, y: -5}
+        - {x: -11.5, y: -15}
+        - {x: -0.5, y: -15}
+        - {x: 10.5, y: -6}
+        - {x: 10.5, y: 0}
+        - {x: -2.5, y: 16}
+    - name: soldierSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 96
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 16}
+        - {x: -16.5, y: -15}
+        - {x: 3.5, y: -15}
+        - {x: 10.5, y: -4}
+        - {x: 10.5, y: 2}
+        - {x: 0.5, y: 16}
+    - name: soldierSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 96
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 16}
+        - {x: -16.5, y: 7}
+        - {x: -16.5, y: -4}
+        - {x: -12.5, y: -15}
+        - {x: 4.5, y: -15}
+        - {x: 11.5, y: -5}
+        - {x: 11.5, y: 7}
+        - {x: 2.5, y: 16}
+    - name: soldierSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 15}
+        - {x: -16.5, y: 6}
+        - {x: -16.5, y: -4}
+        - {x: -13.5, y: -13}
+        - {x: -12.5, y: -15}
+        - {x: 2.5, y: -15}
+        - {x: 12.5, y: -3}
+        - {x: 12.5, y: 8}
+        - {x: 4.5, y: 15}
+    - name: soldierSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 14}
+        - {x: -16.5, y: 6}
+        - {x: -16.5, y: -3}
+        - {x: -13.5, y: -13}
+        - {x: -12.5, y: -15}
+        - {x: 2.5, y: -15}
+        - {x: 12.5, y: -3}
+        - {x: 12.5, y: 8}
+        - {x: 4.5, y: 14}
+    - name: soldierSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 96
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 10}
+        - {x: -2.5, y: 14}
+        - {x: -10.5, y: 14}
+        - {x: -16.5, y: 6}
+        - {x: -16.5, y: -3}
+        - {x: -13.5, y: -13}
+        - {x: -12.5, y: -15}
+        - {x: 1.5, y: -15}
+        - {x: 3.5, y: -14}
+        - {x: 16.5, y: 2}
+        - {x: 16.5, y: 7}
+    - name: soldierSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 14}
+        - {x: -16.5, y: 6}
+        - {x: -16.5, y: -3}
+        - {x: -13.5, y: -13}
+        - {x: -12.5, y: -15}
+        - {x: 2.5, y: -15}
+        - {x: 12.5, y: -3}
+        - {x: 12.5, y: 8}
+        - {x: 4.5, y: 14}
+    - name: soldierSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 15}
+        - {x: -16.5, y: 6}
+        - {x: -16.5, y: -4}
+        - {x: -13.5, y: -13}
+        - {x: -12.5, y: -15}
+        - {x: 2.5, y: -15}
+        - {x: 12.5, y: -3}
+        - {x: 12.5, y: 8}
+        - {x: 4.5, y: 15}
+    - name: soldierSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 16}
+        - {x: -16.5, y: 7}
+        - {x: -16.5, y: -4}
+        - {x: -12.5, y: -15}
+        - {x: 4.5, y: -15}
+        - {x: 11.5, y: -5}
+        - {x: 11.5, y: 7}
+        - {x: 2.5, y: 16}
+    - name: soldierSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 16}
+        - {x: -16.5, y: -15}
+        - {x: 3.5, y: -15}
+        - {x: 10.5, y: -4}
+        - {x: 10.5, y: 2}
+        - {x: 0.5, y: 16}
+    - name: soldierSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 16}
+        - {x: -16.5, y: 8}
+        - {x: -16.5, y: -5}
+        - {x: -11.5, y: -15}
+        - {x: -0.5, y: -15}
+        - {x: 10.5, y: -6}
+        - {x: 10.5, y: 0}
+        - {x: -2.5, y: 16}
+    - name: soldierSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 16}
+        - {x: -10.5, y: 16}
+        - {x: -16.5, y: 4}
+        - {x: -16.5, y: -1}
+        - {x: -14.5, y: -15}
+        - {x: 5.5, y: -15}
+        - {x: 10.5, y: -10}
+        - {x: 10.5, y: 0}
+        - {x: 3.5, y: 14}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
