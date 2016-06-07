@@ -5,29 +5,62 @@ public class PlayerController : MonoBehaviour {
     Animator anim;
     Rigidbody2D rbody;
 
-    public float moveSpeed = 7;
+    public float moveSpeed = 4;
 
+
+    int uplayer, downlayer, rightlayer, leftlayer;
 	void Start () {
         anim = GetComponent<Animator>();
         rbody = GetComponent<Rigidbody2D>();
-	}
-	
+
+        uplayer = anim.GetLayerIndex("Up");
+        downlayer = anim.GetLayerIndex("Down");
+        leftlayer = anim.GetLayerIndex("Left");
+        rightlayer = anim.GetLayerIndex("Right");
+    }
+
+    void setLayerActive(int layer) {
+        anim.SetLayerWeight(uplayer, 0f);
+        anim.SetLayerWeight(downlayer, 0f);
+        anim.SetLayerWeight(leftlayer, 0f);
+        anim.SetLayerWeight(rightlayer, 0f);
+
+        anim.SetLayerWeight(layer, 1f);
+    }
+
+    Vector3 lastPos;
 	void Update () {
         Vector2 move = Vector2.zero;
-        if (Input.GetKey(KeyCode.A))
-            move += Vector2.left;
-        if (Input.GetKey(KeyCode.D))
-            move += Vector2.right;
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W)) {
+            setLayerActive(uplayer);
             move += Vector2.up;
-        if (Input.GetKey(KeyCode.S))
+        } else if (Input.GetKey(KeyCode.S)) {
+            setLayerActive(downlayer);
             move += Vector2.down;
+        }
+        if (Input.GetKey(KeyCode.A)) {
+            setLayerActive(leftlayer);
+            move += Vector2.left;
+        } else if (Input.GetKey(KeyCode.D)) {
+            setLayerActive(rightlayer);
+            move += Vector2.right;
+        }
+
 
         if (move.sqrMagnitude > 0) {
             move.Normalize();
             move *= moveSpeed;
+            if (Input.GetKey(KeyCode.LeftShift))
+                move *= 1.5f;
+            anim.SetBool("Walking", true);
+        }else {
+            anim.SetBool("Walking", false);
         }
         rbody.velocity = move;
+
+        Vector2 delta = transform.position - lastPos;
+        anim.SetFloat("WalkSpeed", (delta.magnitude / Time.deltaTime) / 7.5f);
+        lastPos = transform.position;
 
         if (Input.GetKey(KeyCode.Mouse0))
             anim.Play("Shoot");
