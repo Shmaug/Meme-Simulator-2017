@@ -1,17 +1,19 @@
 fileFormatVersion: 2
-guid: e51b0ee2734705248a6e319a18b854ae
-timeCreated: 1465255070
+guid: b689ad2bff54f4d4d997ffdc306084dd
+timeCreated: 1465260844
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: character_0
-    21300002: character_1
-    21300004: character_2
-    21300006: character_3
+    21300000: CauldronBubblesPurpleSheet_0
+    21300002: CauldronBubblesPurpleSheet_1
+    21300004: CauldronBubblesPurpleSheet_2
+    21300006: CauldronBubblesPurpleSheet_3
+    21300008: CauldronBubblesPurpleSheet_4
+    21300010: CauldronBubblesPurpleSheet_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -47,55 +49,77 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 38, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 10
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: character_0
+    - name: CauldronBubblesPurpleSheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 10
-        height: 22
+        x: 7
+        y: 49
+        width: 17
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: character_1
+    - name: CauldronBubblesPurpleSheet_1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1
-        width: 10
-        height: 22
+        x: 39
+        y: 49
+        width: 17
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: character_2
+    - name: CauldronBubblesPurpleSheet_2
       rect:
         serializedVersion: 2
-        x: 22
-        y: 1
-        width: 10
-        height: 22
+        x: 71
+        y: 49
+        width: 17
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: character_3
+    - name: CauldronBubblesPurpleSheet_3
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 15
-        height: 25
-      alignment: 9
-      pivot: {x: 0.46, y: 0.5}
+        x: 103
+        y: 49
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: CauldronBubblesPurpleSheet_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 17
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: CauldronBubblesPurpleSheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 17
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []
