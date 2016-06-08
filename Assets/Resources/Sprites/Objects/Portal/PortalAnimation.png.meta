@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: b5836140ce643a04abd7d5096b3ca2bc
+timeCreated: 1465344451
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PortalAnimation_0
+    21300002: PortalAnimation_1
+    21300004: PortalAnimation_2
+    21300006: PortalAnimation_3
+    21300008: PortalAnimation_4
+    21300010: PortalAnimation_5
+    21300012: PortalAnimation_6
+    21300014: PortalAnimation_7
+    21300016: PortalAnimation_8
+    21300018: PortalAnimation_9
+    21300020: PortalAnimation_10
+    21300022: PortalAnimation_11
+    21300024: PortalAnimation_12
+    21300026: PortalAnimation_13
+    21300028: PortalAnimation_14
+    21300030: PortalAnimation_15
+    21300032: PortalAnimation_16
+    21300034: PortalAnimation_17
+    21300036: PortalAnimation_18
+    21300038: PortalAnimation_19
+    21300040: PortalAnimation_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PortalAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 2}
+        - {x: -3, y: -1}
+        - {x: -3, y: -3}
+        - {x: 0, y: -6}
+        - {x: 2, y: -6}
+        - {x: 4, y: -4}
+        - {x: 4, y: 0}
+        - {x: 2, y: 2}
+    - name: PortalAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.0238113, y: 2}
+        - {x: -2.9761887, y: -2}
+        - {x: -2.9761887, y: -5}
+        - {x: 0.02381134, y: -8}
+        - {x: 4.0238113, y: -8}
+        - {x: 6.0238113, y: -6}
+        - {x: 6.0238113, y: 0}
+        - {x: 4.0238113, y: 2}
+    - name: PortalAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.9523773, y: 1}
+        - {x: -2.9523773, y: 0}
+        - {x: -3.9523773, y: -3}
+        - {x: -3.9523773, y: -9}
+        - {x: -1.9523773, y: -12}
+        - {x: 4.0476227, y: -12}
+        - {x: 6.0476227, y: -11}
+        - {x: 6.0476227, y: 0}
+        - {x: 4.0476227, y: 1}
+    - name: PortalAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.92855835, y: 2}
+        - {x: -3.9285583, y: -2}
+        - {x: -3.9285583, y: -12}
+        - {x: -1.9285583, y: -15}
+        - {x: 7.0714417, y: -15}
+        - {x: 10.071442, y: -14}
+        - {x: 10.071442, y: -5}
+        - {x: 5.0714417, y: 2}
+    - name: PortalAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.90475464, y: 1}
+        - {x: -3.9047546, y: -1}
+        - {x: -3.9047546, y: -7}
+        - {x: 1.0952454, y: -16}
+        - {x: 10.095245, y: -16}
+        - {x: 12.095245, y: -13}
+        - {x: 12.095245, y: -6}
+        - {x: 6.0952454, y: 1}
+    - name: PortalAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.8809509, y: -1}
+        - {x: -1.8809509, y: -8}
+        - {x: 0.11904907, y: -15}
+        - {x: 15.119049, y: -15}
+        - {x: 18.11905, y: -14}
+        - {x: 19.11905, y: -13}
+        - {x: 19.11905, y: -1}
+    - name: PortalAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.142883, y: 5}
+        - {x: 1.1428833, y: -6}
+        - {x: 1.1428833, y: -14}
+        - {x: 3.1428833, y: -15}
+        - {x: 14.142883, y: -15}
+        - {x: 19.142883, y: -9}
+        - {x: 19.142883, y: 0}
+        - {x: 18.142883, y: 5}
+    - name: PortalAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.166687, y: 7}
+        - {x: 6.166687, y: 6}
+        - {x: 6.166687, y: -14}
+        - {x: 15.166687, y: -14}
+        - {x: 20.166687, y: -6}
+        - {x: 20.166687, y: 4}
+        - {x: 14.166687, y: 7}
+    - name: PortalAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.1904907, y: 10}
+        - {x: 0.19049072, y: 9}
+        - {x: 0.19049072, y: 1}
+        - {x: 10.190491, y: -8}
+        - {x: 12.190491, y: -9}
+        - {x: 17.19049, y: -9}
+        - {x: 19.19049, y: -3}
+        - {x: 19.19049, y: 2}
+        - {x: 11.190491, y: 10}
+    - name: PortalAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.2142944, y: 10}
+        - {x: -2.7857056, y: 9}
+        - {x: -6.7857056, y: 8}
+        - {x: -6.7857056, y: 3}
+        - {x: -4.7857056, y: -3}
+        - {x: -0.78570557, y: -2}
+        - {x: 13.214294, y: -4}
+        - {x: 15.214294, y: -4}
+        - {x: 17.214294, y: -2}
+        - {x: 16.214294, y: 2}
+        - {x: 11.214294, y: 9}
+    - name: PortalAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.76190186, y: 10}
+        - {x: -9.761902, y: 8}
+        - {x: -9.761902, y: -5}
+        - {x: 2.2380981, y: -5}
+        - {x: 15.238098, y: -1}
+        - {x: 15.238098, y: 3}
+        - {x: 8.238098, y: 10}
+    - name: PortalAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.738037, y: 9}
+        - {x: -8.738037, y: -7}
+        - {x: -5.738037, y: -8}
+        - {x: 7.261963, y: -8}
+        - {x: 11.261963, y: 0}
+        - {x: 11.261963, y: 7}
+        - {x: 7.261963, y: 9}
+    - name: PortalAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.7142334, y: 8}
+        - {x: -9.714233, y: 7}
+        - {x: -9.714233, y: -5}
+        - {x: -8.714233, y: -8}
+        - {x: -4.7142334, y: -11}
+        - {x: 10.285767, y: -11}
+        - {x: 10.285767, y: 4}
+        - {x: 7.2857666, y: 8}
+    - name: PortalAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.69043, y: 9}
+        - {x: -8.69043, y: -13}
+        - {x: -2.6904297, y: -15}
+        - {x: 12.30957, y: -15}
+        - {x: 13.30957, y: -14}
+        - {x: 13.30957, y: 9}
+    - name: PortalAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.666626, y: 9}
+        - {x: -10.666626, y: 4}
+        - {x: -10.666626, y: -8}
+        - {x: -9.666626, y: -11}
+        - {x: -6.666626, y: -14}
+        - {x: -3.666626, y: -15}
+        - {x: 9.333374, y: -15}
+        - {x: 15.333374, y: -10}
+        - {x: 15.333374, y: 2}
+        - {x: 9.333374, y: 9}
+    - name: PortalAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.642822, y: 13}
+        - {x: -12.642822, y: 6}
+        - {x: -12.642822, y: -14}
+        - {x: -4.6428223, y: -19}
+        - {x: 9.357178, y: -19}
+        - {x: 16.357178, y: -10}
+        - {x: 16.357178, y: 8}
+        - {x: 9.357178, y: 13}
+    - name: PortalAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.380981, y: 13}
+        - {x: -0.61901855, y: 17}
+        - {x: -5.6190186, y: 17}
+        - {x: -6.6190186, y: 16}
+        - {x: -11.619019, y: 8}
+        - {x: -11.619019, y: -10}
+        - {x: -9.619019, y: -19}
+        - {x: 1.3809814, y: -22}
+        - {x: 15.380981, y: -22}
+        - {x: 15.380981, y: 2}
+    - name: PortalAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.404785, y: 12}
+        - {x: -1.5952148, y: 18}
+        - {x: -10.595215, y: 18}
+        - {x: -17.595215, y: 17}
+        - {x: -22.595215, y: 12}
+        - {x: -22.595215, y: -5}
+        - {x: -11.595215, y: -25}
+        - {x: 22.404785, y: -25}
+        - {x: 22.404785, y: -11}
+        - {x: 17.404785, y: 3}
+    - name: PortalAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.428589, y: -14}
+        - {x: 19.428589, y: -16}
+        - {x: 19.428589, y: -20}
+        - {x: 21.428589, y: -22}
+        - {x: 29.428589, y: -22}
+        - {x: 32.42859, y: -20}
+        - {x: 32.42859, y: -17}
+        - {x: 31.428589, y: -14}
+      - - {x: -15.571411, y: 15}
+        - {x: -15.571411, y: -15}
+        - {x: 2.4285889, y: -21}
+        - {x: 12.428589, y: -21}
+        - {x: 15.428589, y: -15}
+        - {x: 15.428589, y: 11}
+        - {x: 5.428589, y: 15}
+      - - {x: -22.571411, y: 7}
+        - {x: -26.571411, y: 1}
+        - {x: -26.571411, y: -3}
+        - {x: -25.571411, y: -5}
+        - {x: -20.571411, y: -5}
+        - {x: -17.571411, y: -4}
+        - {x: -17.571411, y: 6}
+        - {x: -19.571411, y: 7}
+    - name: PortalAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.547607, y: 15}
+        - {x: -14.547607, y: 4}
+        - {x: -10.547607, y: -13}
+        - {x: -3.5476074, y: -21}
+        - {x: 15.452393, y: -21}
+        - {x: 17.452393, y: -20}
+        - {x: 17.452393, y: 11}
+        - {x: 7.4523926, y: 15}
+    - name: PortalAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.476196, y: 13}
+        - {x: 0.4761963, y: 15}
+        - {x: -7.5238037, y: 15}
+        - {x: -13.523804, y: 9}
+        - {x: -13.523804, y: -7}
+        - {x: -3.5238037, y: -17}
+        - {x: 17.476196, y: -17}
+        - {x: 19.476196, y: -9}
+        - {x: 19.476196, y: 5}
+        - {x: 12.476196, y: 11}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

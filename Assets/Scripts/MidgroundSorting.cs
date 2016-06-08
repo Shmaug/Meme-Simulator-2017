@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor;
+
 /*
+#if UNITY_EDITOR
+using UnityEditor;
 [CustomEditor(typeof(SpriteRenderer))]
 public class MidgroundSortingEditor : Editor {
     public override void OnInspectorGUI() {
@@ -57,6 +59,7 @@ public class MidgroundSortingEditor : Editor {
         }
     }
 }
+#endif
 */
 
 public class MidgroundSorting : MonoBehaviour {

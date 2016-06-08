@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1bf5ec08ac56fd545802cd2a23cd91e0
-timeCreated: 1465276782
+timeCreated: 1465334851
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -32,6 +32,14 @@ TextureImporter:
     21300050: PlayerNoWeapon_25
     21300052: PlayerNoWeapon_26
     21300054: PlayerNoWeapon_27
+    21300056: PlayerNoWeapon_28
+    21300058: PlayerNoWeapon_29
+    21300060: PlayerNoWeapon_30
+    21300062: PlayerNoWeapon_31
+    21300064: PlayerNoWeapon_32
+    21300066: PlayerNoWeapon_33
+    21300068: PlayerNoWeapon_34
+    21300070: PlayerNoWeapon_35
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -82,308 +90,396 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 164
-        width: 10
-        height: 23
-      alignment: 9
-      pivot: {x: 0.5, y: 0.36693275}
+        y: 131
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 163
+        x: 43
+        y: 131
         width: 10
-        height: 23
-      alignment: 9
-      pivot: {x: 0.5, y: 0.41363326}
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 165
-        width: 10
+        x: 76
+        y: 131
+        width: 9
         height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.32432625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_3
       rect:
         serializedVersion: 2
-        x: 106
-        y: 164
-        width: 10
+        x: 109
+        y: 131
+        width: 7
         height: 23
-      alignment: 9
-      pivot: {x: 0.5, y: 0.36693275}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_4
       rect:
         serializedVersion: 2
-        x: 135
-        y: 163
-        width: 10
-        height: 24
-      alignment: 9
-      pivot: {x: 0.5, y: 0.39639854}
+        x: 138
+        y: 131
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_5
       rect:
         serializedVersion: 2
-        x: 167
-        y: 165
-        width: 10
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.33827555}
+        x: 172
+        y: 131
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_6
       rect:
         serializedVersion: 2
-        x: 11
-        y: 133
+        x: 204
+        y: 131
         width: 10
-        height: 23
-      alignment: 9
-      pivot: {x: 0.5000002, y: 0.36693275}
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_7
       rect:
         serializedVersion: 2
-        x: 43
-        y: 132
-        width: 10
+        x: 237
+        y: 131
+        width: 7
         height: 23
-      alignment: 9
-      pivot: {x: 0.5, y: 0.41029757}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_8
       rect:
         serializedVersion: 2
-        x: 75
-        y: 134
-        width: 10
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3417629}
+        x: 13
+        y: 100
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_9
       rect:
         serializedVersion: 2
-        x: 107
-        y: 133
+        x: 43
+        y: 100
         width: 10
-        height: 23
-      alignment: 9
-      pivot: {x: 0.5, y: 0.37026843}
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_10
       rect:
         serializedVersion: 2
-        x: 136
-        y: 132
-        width: 10
-        height: 23
-      alignment: 9
-      pivot: {x: 0.5, y: 0.41029757}
+        x: 76
+        y: 100
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_11
       rect:
         serializedVersion: 2
-        x: 168
-        y: 134
-        width: 10
+        x: 107
+        y: 100
+        width: 12
         height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3417629}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_12
       rect:
         serializedVersion: 2
-        x: 11
-        y: 104
-        width: 11
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.34052312}
+        x: 141
+        y: 100
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_13
       rect:
         serializedVersion: 2
-        x: 44
-        y: 104
+        x: 172
+        y: 100
         width: 9
-        height: 21
-      alignment: 9
-      pivot: {x: 0.49559444, y: 0.27186584}
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_14
       rect:
         serializedVersion: 2
-        x: 76
-        y: 104
-        width: 9
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.29555094}
+        x: 204
+        y: 100
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_15
       rect:
         serializedVersion: 2
-        x: 109
-        y: 104
-        width: 7
-        height: 23
-      alignment: 9
-      pivot: {x: 0.50825936, y: 0.3242708}
+        x: 235
+        y: 100
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_16
       rect:
         serializedVersion: 2
         x: 11
-        y: 72
-        width: 11
+        y: 68
+        width: 10
         height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.342393}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_17
       rect:
         serializedVersion: 2
         x: 43
-        y: 72
+        y: 66
         width: 10
-        height: 21
-      alignment: 9
-      pivot: {x: 0.5403538, y: 0.26261792}
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_18
       rect:
         serializedVersion: 2
-        x: 76
-        y: 72
-        width: 9
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.29042262}
+        x: 75
+        y: 67
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_19
       rect:
         serializedVersion: 2
-        x: 109
-        y: 72
-        width: 7
-        height: 23
-      alignment: 9
-      pivot: {x: 0.5000011, y: 0.31873387}
+        x: 107
+        y: 69
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_20
       rect:
         serializedVersion: 2
-        x: 10
-        y: 39
-        width: 7
-        height: 23
-      alignment: 9
-      pivot: {x: 0.49118504, y: 0.32192594}
+        x: 139
+        y: 68
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_21
       rect:
         serializedVersion: 2
-        x: 41
-        y: 39
-        width: 9
-        height: 22
-      alignment: 9
-      pivot: {x: 0.49314415, y: 0.2944891}
+        x: 171
+        y: 66
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_22
       rect:
         serializedVersion: 2
-        x: 73
-        y: 39
-        width: 9
-        height: 21
-      alignment: 9
-      pivot: {x: 0.49252743, y: 0.26582026}
+        x: 203
+        y: 67
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_23
       rect:
         serializedVersion: 2
-        x: 104
-        y: 39
-        width: 11
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3454498}
+        x: 235
+        y: 69
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_24
       rect:
         serializedVersion: 2
-        x: 10
-        y: 7
-        width: 7
-        height: 23
-      alignment: 9
-      pivot: {x: 0.5088143, y: 0.31924304}
+        x: 11
+        y: 38
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_25
       rect:
         serializedVersion: 2
-        x: 41
-        y: 7
-        width: 9
-        height: 22
-      alignment: 9
-      pivot: {x: 0.50685585, y: 0.2888796}
+        x: 43
+        y: 36
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_26
       rect:
         serializedVersion: 2
-        x: 73
-        y: 7
+        x: 75
+        y: 37
         width: 10
-        height: 21
-      alignment: 9
-      pivot: {x: 0.45063782, y: 0.2556244}
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PlayerNoWeapon_27
       rect:
         serializedVersion: 2
-        x: 104
-        y: 7
-        width: 11
+        x: 107
+        y: 39
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 38
+        width: 10
         height: 22
-      alignment: 9
-      pivot: {x: 0.4999993, y: 0.33936346}
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 36
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 37
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 39
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 7
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_33
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 7
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 7
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PlayerNoWeapon_35
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 7
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

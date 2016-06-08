@@ -1,9 +1,9 @@
-Shader "Sprites/Diffuse"
+Shader "Custom/SpriteDiffuse"
 {
 	Properties
 	{
 		[PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
-		_Color ("Tint", Color) = (1,1,1,1)
+		[PerRendererData] _Color ("Tint", Color) = (1,1,1,1)
 		[MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
 	}
 
@@ -32,7 +32,6 @@ Shader "Sprites/Diffuse"
 		fixed4 _Color;
 		sampler2D _AlphaTex;
 
-
 		struct Input
 		{
 			float2 uv_MainTex;
@@ -42,7 +41,7 @@ Shader "Sprites/Diffuse"
 		void vert (inout appdata_full v, out Input o)
 		{
 			#if defined(PIXELSNAP_ON)
-			v.vertex = UnityPixelSnap (v.vertex);
+			v.vertex = UnityPixelSnap(v.vertex);
 			#endif
 			
 			UNITY_INITIALIZE_OUTPUT(Input, o);
@@ -53,16 +52,15 @@ Shader "Sprites/Diffuse"
 		{
 			fixed4 color = tex2D (_MainTex, uv);
 
-#if ETC1_EXTERNAL_ALPHA
+			#if ETC1_EXTERNAL_ALPHA
 			color.a = tex2D (_AlphaTex, uv).r;
-#endif //ETC1_EXTERNAL_ALPHA
+			#endif
 
 			return color;
 		}
-
 		void surf (Input IN, inout SurfaceOutput o)
 		{
-			fixed4 c = SampleSpriteTexture (IN.uv_MainTex) * IN.color;
+			fixed4 c = SampleSpriteTexture(IN.uv_MainTex) * IN.color;
 			o.Albedo = c.rgb * c.a;
 			o.Alpha = c.a;
 		}
